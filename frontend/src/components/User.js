@@ -112,7 +112,7 @@ function User() {
   return (
     <div>
       {userData ? (
-        userData.comments.slice(-1) === "employee" && isInEmployee ? (
+        userData.comments.slice(-1) == "employee" && isInEmployee ? (
           <Employee_Welcome />
         ) : (
           <div class="bg-white ">
